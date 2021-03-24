@@ -207,7 +207,6 @@ def readJsonFile(url, time, make_changes):
     next_chapter_tag = novel_object['next-chapter']
     chapter_content_tag = novel_object['chapter-content']
     base_url = novel_object['base_url']
-    # novel_object['time']
     print(novel_name,first_chapter,cur_chapter,next_chapter_tag,chapter_content_tag)
 
     if make_changes == True: #write changes
